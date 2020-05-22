@@ -1,0 +1,30 @@
+.image {
+  background-image: url(../assets/books-1281581_640.jpg);
+  background-repeat: no-repeat;
+}
+body {
+  color: white;
+  margin: 0px;
+}
+.header {
+  background-image: url(../assets/books-1281581_640.jpg);
+  background-repeat: no-repeat;
+  color: white;
+}
+.header {
+  color: white;
+}
+.intro {
+  background-color: #21b2a6;
+}
+.sectionDark {
+  background-color: gray;
+  color: white;
+}
+.WhatItDo {
+  background-color: #505393;
+}
+.footer {
+  background-image: url(../assets/books-1281581_640.jpg);
+  background-repeat: no-repeat;
+}
