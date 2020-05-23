@@ -36,6 +36,11 @@ body {
   padding-right: 20px;
 }
 .header {
+  background-image: url('TopPic.jpg');
+  height: 100%;
+  width: 100%;
+  border-left: auto;
+  border-right: auto;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
