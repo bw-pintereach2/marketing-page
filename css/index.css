@@ -1,30 +1,88 @@
 .image {
-  background-image: url(../assets/books-1281581_640.jpg);
-  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  border-left: auto;
+  border-right: auto;
+}
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+.center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.buttonLogin {
+  background-color: red;
+  border: black solid 1px;
+  border-radius: 30px;
+  padding: 5px;
+}
+* {
+  box-sizing: border-box;
 }
 body {
+  background-color: #505393;
   color: white;
   margin: 0px;
+  font-family: HaasGrotDisp, sans-serif;
+}
+.menuBar {
+  background-color: gray;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
 }
 .header {
-  background-image: url(../assets/books-1281581_640.jpg);
-  background-repeat: no-repeat;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
   color: white;
 }
-.header {
-  color: white;
-}
-.intro {
-  background-color: #21b2a6;
+.header .LogInButton {
+  background-color: red;
+  border: black solid 1px;
+  border-radius: 30px;
+  padding: 5px;
 }
 .sectionDark {
   background-color: gray;
   color: white;
 }
+.sectionDark1 {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sectionDark2 {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sectionDark3 {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
 .WhatItDo {
   background-color: #505393;
+  height: 100%;
+  width: 100%;
+  border-left: auto;
+  border-right: auto;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 .footer {
-  background-image: url(../assets/books-1281581_640.jpg);
-  background-repeat: no-repeat;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: gray;
+}
+.footer .socialMedia {
+  display: flex;
+  justify-content: space-around;
 }

@@ -1,19 +1,24 @@
 body{
+    background-color: @purple;
     color:@text;
     margin: 0px;
+    font-family: @fontText;
+}
+
+.menuBar{
+    background-color: @dark;
+    .menu();
+
 }
 
 .header{
-    .image();
+    .center();
     color: @text;
-}
 
-.header{
-    color: @text;
-}
+    .LogInButton{
+        .buttonLogin();
+    }
 
-.intro{
-    background-color: @teal;
 }
 
 .sectionDark{
@@ -21,10 +26,28 @@ body{
     color: @text;
 }
 
+.sectionDark1{
+    .center();
+}
+.sectionDark2{
+    .center();
+}
+.sectionDark3{
+    .center();
+}
+
 .WhatItDo{
     background-color: @purple;
+    .image();
+    .center();
 }
 
 .footer{
-    .image();
+    .center();
+    background-color: @dark;
+
+    .socialMedia{
+        display: flex;
+        justify-content: space-around;
+    }
 }
