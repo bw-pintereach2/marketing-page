@@ -3,6 +3,11 @@ body{
     color:@text;
     margin: 0px;
     font-family: @fontText;
+
+     @media @tablet, @desktop {
+
+    .sideBars()
+    }
 }
 
 .menuBar{
@@ -12,8 +17,8 @@ body{
 }
 
 .header{
-    background-image: url('TopPic.jpg');
-    
+    background-image: url(../assets/TopPic.jpg);
+    background-size: 100%;
     .image();
     .center();
     color: @text;
