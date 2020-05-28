@@ -1,4 +1,40 @@
 body{
     background-color: @purple;
     color: @text;
+    font-family: @fontText;
+
+    @media @tablet, @desktop {
+
+        .sideBars()
+        }
+    }
+
+h1{
+    .center();
+    font-size: 3rem;
+}
+
+.header{
+    background-color: @dark;
+    nav{
+        display: flex;
+        justify-content: space-around
+    }
+}
+
+img{
+    .image();
+}
+
+.bio{
+    .center();
+    background-color: @dark;
+}
+
+footer{
+    background-color: @dark;
+    .socialMedia{
+        display: flex;
+        justify-content: space-around;
+    }
 }

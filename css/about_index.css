@@ -1,3 +1,29 @@
+.image {
+  height: 100%;
+  width: 100%;
+  border-left: auto;
+  border-right: auto;
+}
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+.center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.buttonLogin {
+  background-color: red;
+  border: black solid 1px;
+  border-radius: 30px;
+  padding: 5px;
+}
+.sideBars {
+  margin-left: 25%;
+  margin-right: 25%;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -132,4 +158,43 @@ table {
 body {
   background-color: #505393;
   color: white;
+  font-family: HaasGrotDisp, sans-serif;
+}
+@media (min-width: 500px), (min-width: 800px) {
+  body {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+}
+h1 {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 3rem;
+}
+.header {
+  background-color: gray;
+}
+.header nav {
+  display: flex;
+  justify-content: space-around;
+}
+img {
+  height: 100%;
+  width: 100%;
+  border-left: auto;
+  border-right: auto;
+}
+.bio {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: gray;
+}
+footer {
+  background-color: gray;
+}
+footer .socialMedia {
+  display: flex;
+  justify-content: space-around;
 }
